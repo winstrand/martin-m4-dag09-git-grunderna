@@ -1,6 +1,6 @@
 # Dag 9 · Git-grunderna
 
-*Modul 4, UI/UX & Frontendutveckling, Lexicon IT-Proffs*
+_Modul 4, UI/UX & Frontendutveckling, Lexicon IT-Proffs_
 
 ## Vad du ska göra idag
 
@@ -8,12 +8,12 @@ Du går från att köra Git som ett recept till att förstå det: `status`, `add
 
 ## Bakgrund
 
-Git är ett system som sparar historik över dina filer. Varje *commit* är ett sparat läge med ett meddelande. Du kan alltid gå tillbaka, och alla som tittar på din kod kan se hur arbetet växte fram. Du har kört `add`, `commit` och `push` som ett recept sedan dag 1. Idag förstår du vad de gör. Dag 10 publicerar du på riktigt med GitHub Pages.
+Git är ett system som sparar historik över dina filer. Varje _commit_ är ett sparat läge med ett meddelande. Du kan alltid gå tillbaka, och alla som tittar på din kod kan se hur arbetet växte fram. Du har kört `add`, `commit` och `push` som ett recept sedan dag 1. Idag förstår du vad de gör. Dag 10 publicerar du på riktigt med GitHub Pages.
 
 ## Så arbetar du (samma som alltid)
 
-1. **Forka** dagens repo på GitHub (*Fork → Create fork*).
-2. **Klona din fork:** *Code → HTTPS → kopiera adressen*. I terminalen (Ctrl+ö i VS Code): `git clone <adressen>`. Öppna den nya mappen i VS Code och starta *Live Server*.
+1. **Forka** dagens repo på GitHub (_Fork → Create fork_).
+2. **Klona din fork:** _Code → HTTPS → kopiera adressen_. I terminalen (Ctrl+ö i VS Code): `git clone <adressen>`. Öppna den nya mappen i VS Code och starta _Live Server_.
 3. **Gör uppgiften.** Spara och kontrollera i webbläsaren efter varje steg. Gör en commit efter varje avslutat steg: `git add .` och `git commit -m "Beskriv vad du gjorde"`.
 4. **Skicka upp** när du är klar: `git push`.
 5. **Lämna in i Microsoft Forms.**
@@ -37,17 +37,18 @@ I mappen du klonade: `git status`. Läs vad det står, ord för ord. Du ska se "
 ### Steg 4. Gör fem commits till
 
 Gör fem ytterligare små ändringar, en i taget, och gör en commit för varje:
-   1. ändra en rubriktext
-   2. lägg till en fjärde maträtt i menyn
-   3. ändra färgen `--color-primary`
-   4. lägg till en rad i `README.md` om dig själv
-   5. ändra öppettiderna i Om oss
+
+1. ändra en rubriktext
+2. lägg till en fjärde maträtt i menyn
+3. ändra färgen `--color-primary`
+4. lägg till en rad i `README.md` om dig själv
+5. ändra öppettiderna i Om oss
 
 Kör alltid `git status` före `git add` och `git log --oneline` efter.
 
 ### Steg 5. Skriv bra commit-meddelanden
 
-Ett bra meddelande säger *vad* och *varför*, i presens eller imperativ: "Lägg till fjärde maträtt i menyn". Undvik "ändrat", "fix", "asdf".
+Ett bra meddelande säger _vad_ och _varför_, i presens eller imperativ: "Lägg till fjärde maträtt i menyn". Undvik "ändrat", "fix", "asdf".
 
 ### Steg 6. Se skillnaden
 
@@ -55,7 +56,7 @@ Ett bra meddelande säger *vad* och *varför*, i presens eller imperativ: "Lägg
 
 ### Steg 7. Skicka upp
 
-Kör `git push` och kontrollera på GitHub att alla dina nya commits syns under *Commits*.
+Kör `git push` och kontrollera på GitHub att alla dina nya commits syns under _Commits_.
 
 ## Kontrollista: så vet du att du är klar
 
@@ -87,10 +88,5 @@ I formuläret fyller du i:
 
 ## Utveklare
 
-Utveklare av denna branch: Martin Winstrand
-Erfaren systemutvecklare och projektledare med bred bakgrund inom IT, utveckling, IT-drift och
-informationssäkerhet. Jag har nyligen påbörjat en utbildning inom UX/UI, med fokus på
-användarupplevelse, användarcentrerad design och moderna gränssnitt. Min tekniska erfarenhet i
-kombination med UX/UI ger mig ett helhetsperspektiv på hur digitala lösningar kan bli både
-tekniskt välfungerande och användarvänliga. Jag är strukturerad, lösningsorienterad och trivs med
-att samarbeta med människor och verksamheter.
+Utveklare av denna branch: **Martin Winstrand**
+Erfaren systemutvecklare och projektledare med bred bakgrund inom IT, utveckling, IT-drift och informationssäkerhet. Jag har nyligen påbörjat en utbildning inom UX/UI, med fokus på användarupplevelse, användarcentrerad design och moderna gränssnitt. Min tekniska erfarenhet i kombination med UX/UI ger mig ett helhetsperspektiv på hur digitala lösningar kan bli både tekniskt välfungerande och användarvänliga. Jag är strukturerad, lösningsorienterad och trivs med att samarbeta med människor och verksamheter.
