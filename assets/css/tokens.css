@@ -1,0 +1,104 @@
+/* Grey: #fefefe */
+--color-grey-50:  #fefefe  /* Base */
+--color-grey-100:	#e2e2e2
+--color-grey-200:	#c8c8c8
+--color-grey-300:	#adadad
+--color-grey-400:	#949494
+--color-grey-500:	#7b7b7b
+--color-grey-600:	#636363
+--color-grey-700:	#4c4c4c
+--color-grey-800:	#363636
+--color-grey-900:	#222222
+--color-grey-950:	#0d0d0d
+
+/* Border: #b2c1bb */
+--color-border-50:   #f1f4f3
+--color-border-100:  #dce3e0
+--color-border-200:  #c7d2cd
+--color-border-300:  #b2c1bb /* Base */
+--color-border-400:  #97a49f
+--color-border-500:  #7e8884
+--color-border-600:  #656e6a
+--color-border-700:  #4d5451
+--color-border-800:  #373c3a
+--color-border-900:  #212524
+--color-border-950:  #0b0e0d
+
+/* Primary: #588158 */
+--color-primary-50:  #f0f5f0
+--color-primary-100: #d6e1d5
+--color-primary-200: #bccdbb
+--color-primary-300: #a2baa1
+--color-primary-400: #89a688
+--color-primary-500: #709470
+--color-primary-600: #588158 /* Base */
+--color-primary-700: #446244
+--color-primary-800: #314531
+--color-primary-900: #1e291e
+--color-primary-950: #0a0f0a
+
+Secondary: #083445
+--color-secondary-50:   #e8f7fc
+--color-secondary-100:  #cbdce3
+--color-secondary-200:  #aec2cb
+--color-secondary-300:  #92a8b3
+--color-secondary-400:  #778f9c
+--color-secondary-500:  #5c7785
+--color-secondary-600:  #42606f
+--color-secondary-700:  #28495a
+--color-secondary-800:  #083445 /* Base */
+--color-secondary-900:  #0a222d
+--color-secondary-950:  #031117
+
+/* Tritary: #fd9e42 */
+--color-tertiary-50:    #fff2e6
+--color-tertiary-100:   #ffddbd
+--color-tertiary-200:   #ffc894
+--color-tertiary-300:   #ffb36c
+--color-tertiary-400:   #fd9e42 /* Base */
+--color-tertiary-500:   #d28338
+--color-tertiary-600:   #a86a2e
+--color-tertiary-700:   #805125
+--color-tertiary-800:   #5b391b
+--color-tertiary-900:   #372311
+--color-tertiary-950:   #190d00
+
+/* Quaternary: #559f87 */
+--color-quaternary-50:  #eef6f4
+--color-quaternary-100: #d0e4dd
+--color-quaternary-200: #b2d3c7
+--color-quaternary-300: #93c2b1
+--color-quaternary-400: #75b09c
+--color-quaternary-500: #559f87 /* Base */
+--color-quaternary-600: #46806d
+--color-quaternary-700: #376153
+--color-quaternary-800: #28453b
+--color-quaternary-900: #1a2a24
+--color-quaternary-950: #09110e
+
+/* Quinary: #fec668 */
+--color-quinary-50:  #fff5e6
+--color-quinary-100: #ffe5bc
+--color-quinary-200: #ffd592
+--color-quinary-300: #fec668 /* Base */
+--color-quinary-400: #d9a959
+--color-quinary-500: #b48c4a
+--color-quinary-600: #92713c
+--color-quinary-700: #70572e
+--color-quinary-800: #503e20
+--color-quinary-900: #332714
+--color-quinary-950: #191000
+
+/*Senary: #3d9176 */
+--color-senary-50:   #edf7f4
+--color-senary-100:  #d0e6de
+--color-senary-200:  #b4d5c8
+--color-senary-300:  #97c4b3
+--color-senary-400:  #7bb39e
+--color-senary-500:  #5da28a
+--color-senary-600:  #3d9176 /* Base */
+--color-senary-700:  #316e5a
+--color-senary-800:  #254d40
+--color-senary-900:  #192e27
+--color-senary-950:  #08120f
+

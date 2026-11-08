@@ -84,3 +84,13 @@ I formuläret fyller du i:
 
 - Läs om `git commit --amend` och ändra ett meddelande.
 - Skapa en `.gitignore` med `.DS_Store`.
+
+## Utveklare
+
+Utveklare av denna branch: Martin Winstrand
+Erfaren systemutvecklare och projektledare med bred bakgrund inom IT, utveckling, IT-drift och
+informationssäkerhet. Jag har nyligen påbörjat en utbildning inom UX/UI, med fokus på
+användarupplevelse, användarcentrerad design och moderna gränssnitt. Min tekniska erfarenhet i
+kombination med UX/UI ger mig ett helhetsperspektiv på hur digitala lösningar kan bli både
+tekniskt välfungerande och användarvänliga. Jag är strukturerad, lösningsorienterad och trivs med
+att samarbeta med människor och verksamheter.

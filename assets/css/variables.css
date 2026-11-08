@@ -1,0 +1,67 @@
+/*
+ * Variables:
+ *
+ * Innehåller alla sitens css variabler
+ */
+:root {
+  --color-primary: #8c1010;
+  --color-secondary: #5b3a29;
+  --color-background: #fffaf3;
+  --color-text: #222222;
+  --color-heading: #ffffff;
+  --color-accent: #f3e3cf;
+  --color-border: #e3d5c3;
+  --color-hover: #6f0c0c;
+  --color-hover-secondary: #ce8f8f;
+  --color-focus: #1a73e8;
+
+  --font-family-sans: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-family-serif: Georgia, 'Times New Roman', serif;
+
+  --font-family-standard: var(--font-family-sans);
+  --font-family-heading: var(--font-family-serif);
+
+  --font-size-base: 16px;
+  --line-height-base: 1.6;
+  --line-height-xs: 1.2;
+  --line-height-sm: 1.4;
+  --line-height-lg: 1.8;
+  --line-height-xl: 1.9;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-md: 1.125rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-xxl: 1.75rem;
+  --font-size-xxxl: 2rem;
+  --font-size-xxxxl: 2.25rem;
+  --font-size-xxxxxl: 2.5rem;
+
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-8: 8px;
+  --space-16: 16px;
+  --space-24: 24px;
+  --space-32: 32px;
+  --space-40: 40px;
+  --space-48: 48px;
+  --space-56: 56px;
+
+  --radius-xs: 2px;
+  --radius-sm: 4px;
+  --radius-md: 6px;
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-xxl: 16px;
+
+  --spacing-xxs: var(--space-2);
+  --spacing-xs: var(--space-4);
+  --spacing-sm: var(--space-8);
+  --spacing-md: var(--space-16);
+  --spacing-lg: var(--space-24);
+  --spacing-xl: var(--space-32);
+  --spacing-xxl: var(--space-40);
+  --spacing-xxxl: var(--space-48);
+  --spacing-xxxxl: var(--space-56);
+}

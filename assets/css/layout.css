@@ -1,0 +1,146 @@
+/*
+ * Layout:
+ * Denna css-fil innehåller grund layout delarna för siten.
+ *
+ * body
+ * heading 1-3
+ * header
+ * main
+ * footer
+ */
+
+body {
+  font-family: var(--font-family-standard);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-base);
+
+  margin: 0;
+
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-family-heading);
+  line-height: var(--line-height-xs);
+  color: var(--color-text);
+}
+
+h2 {
+  font-size: var(--font-size-xxl);
+  margin: 0 0 var(--spacing-lg);
+}
+
+h3 {
+  font-size: var(--font-size-lg);
+  margin: var(--spacing-sm) 0 var(--spacing-xs);
+}
+
+a {
+  color: var(--color-primary);
+  text-underline-offset: var(--spacing-xs);
+}
+
+a:hover {
+  color: var(--color-hover);
+}
+
+header {
+  background-color: var(--color-secondary);
+  color: var(--color-heading);
+  padding: var(--spacing-md) var(--spacing-lg);
+
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-sm) var(--spacing-lg);
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+
+  background-color: var(--color-secondary);
+  color: var(--color-heading);
+  padding: var(--spacing-lg);
+}
+
+main {
+  padding: var(--spacing-lg);
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: var(--spacing-xl);
+}
+
+header h1 {
+  color: var(--color-heading);
+  font-size: var(--font-size-xl);
+  margin: 0 0 var(--spacing-sm);
+}
+
+footer a {
+  color: var(--color-heading);
+}
+footer a:hover {
+  color: var(--color-hover-secondary);
+}
+
+address {
+  font-style: normal;
+}
+
+input[type='text'],
+input[type='email'],
+input[type='tel'],
+input[type='date'],
+select,
+textarea {
+  width: 100%;
+  max-width: 28rem;
+  padding: 10px 12px;
+  border: var(--spacing-xxs) solid var(--color-border);
+  border-radius: var(--radius-md);
+  font: inherit;
+}
+
+fieldset {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  margin: 0 0 var(--spacing-lg);
+  padding: var(--spacing-sm) var(--spacing-md);
+}
+
+legend {
+  font-weight: 700;
+  padding: 0 var(--spacing-sm);
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+
+/* ===== Dag 7: Responsiv design (mobile first) ===== */
+@media (min-width: 600px) {
+  main {
+    padding: var(--spacing-xl);
+  }
+}
+
+@media (min-width: 900px) {
+  header {
+    padding: var(--spacing-lg) var(--spacing-xxxl);
+  }
+}
